@@ -1,0 +1,102 @@
+.rules_container {
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rules_container img {
+    z-index: 1;
+    opacity: .5;
+    position: absolute;
+    width: 100%;
+}
+
+.rules_card_text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 15vh;
+    width: 20vw;
+    background-color: black;
+    z-index: 1000;
+    border-radius: 3vh;
+    box-shadow: 0 0 10px 1px black;
+    margin-top: -4vh;
+    color: #fff;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    text-transform: uppercase;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.rules_card_container {
+    height: 85%;
+    width: 80%;
+    z-index: 100;
+    background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(30px);
+    border: 5px solid #fff;
+    border-radius: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.rules_card {
+    display: flex;
+}
+
+.rules_card_container > p {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 3vh;
+}
+
+.rules_left, .rules_right {
+    position: absolute;
+    height: 11vh;
+    width: 4vw;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    padding-top: 1.5vh;
+    cursor: pointer;
+}
+
+.rules_left {
+    left: 0;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    margin-left: -.7vh;
+}
+
+.rules_right {
+    right: 0;
+    border-top-left-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    margin-right: -.7vh;
+}
+
+small {
+    position: absolute;
+    top: 2%;
+    color: #fff;
+    font-size: 3vh;
+    right: 2%;
+    cursor: pointer;
+}

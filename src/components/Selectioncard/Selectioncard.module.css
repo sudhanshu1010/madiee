@@ -1,0 +1,21 @@
+.selectioncard_main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.selectioncard_container {
+    height: 60vh;
+    width: 18vw;
+    background-color: #fff;
+    margin: 0 3vh 0 3vh;
+    border-radius: 2vh;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,.2);
+}
+
+.selectioncard_upper_container {
+    height: 30%;
+    background-color: #000;
+}

@@ -1,0 +1,81 @@
+.selection_main_container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow-y: clip;
+}
+
+.selection_heading {
+    height: auto;
+    object-fit: contain;
+}
+
+.selection_heading img {
+    width: 30vw;
+    height: auto;
+    margin-left: 27vw;
+}
+
+.selection_card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selection_bulbs {
+    margin-top: 45vh;
+}
+
+.arrow_container {
+    position: absolute;
+    color: #fff;
+    font-size: 5vh;
+    bottom: 8%;
+    cursor: pointer;
+    transform: rotate(90deg)
+}
+
+.selection_first_card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selection_first_card_container h2 {
+    color: #fff;
+}
+
+.selection_first {
+    height: 60vh;
+    width: 18vw;
+    background-color: #fff;
+    margin: 0 3vh 0 3vh;
+    border-radius: 2vh;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,.2);
+}
+
+.selection_upper_container {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card_heading {
+    display: flex;
+}
+
+.card_heading_image_container {
+    height: 4vh;
+    width: 4vh;
+    background-color: blue;
+    object-fit: contain;
+}
+
+.card_heading > h3, .selection_upper_container h6, .selection_upper_container h1 {
+    margin: 0;
+}

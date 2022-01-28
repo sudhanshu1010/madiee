@@ -1,0 +1,19 @@
+.location_container {
+    height: 8vh;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 2vh;
+    font-weight: 600;
+    font-size: 3vh; 
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color: #000;
+    cursor: pointer;
+}
+
+.location_container:hover {
+    background-color: lightgrey;
+}

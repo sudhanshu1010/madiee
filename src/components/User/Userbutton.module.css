@@ -1,0 +1,35 @@
+.userbutton_main_container {
+    height: 10vh;
+    width: 80%;
+    background-color: #E9EBF0;
+    border-radius: 2vh;
+    object-fit: contain;
+    overflow: hidden;
+    display: flex;  
+    margin-top: 1vh;
+}
+
+.userbutton_main_container > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userbutton_name, .userbutton_score {
+    font-size: 3vh;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.userbutton_name {
+    height: 100%;
+    width: 55%;
+    background-color: #fff;
+}
+
+.userbutton_score {
+    height: 100%;
+    width: 45%;
+    color: #8C8D90;
+}
