@@ -13,8 +13,8 @@ const App = () => {
         <Leaderboard />
       </div> */}
 
-      <Rules/>
-      {/* <Selection/> */}
+      {/* <Rules/> */}
+      <Selection/>
     </div>
   )
 }
